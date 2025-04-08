@@ -34,7 +34,7 @@
 ![first](./Healthy_Me/초기%20작업%20초안.PNG)
 * 작업 후 완성된 화면
 ![first](./Healthy_Me/초기도안으로%20만든%20화면.PNG)
-![first](./purchase.PNG) 
+![first](./Healthy_Me/purchase.PNG) 
 
 ### 작업 후 문제점
 -------
