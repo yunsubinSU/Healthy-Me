@@ -22,7 +22,7 @@
 
 ### 개발 환경
 ---------------
-* Front : HTML, CSS, JavaScript, JQEERY
+* Front : HTML, CSS, JavaScript (with jQuery)
 
 ### 주요 성과 및 기여
 ------
