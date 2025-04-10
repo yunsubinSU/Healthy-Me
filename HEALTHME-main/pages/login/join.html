@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입창</title>
+    <link rel="stylesheet" href="../../static/css/login/join.css">
+</head>
+<body>
+    <form action="/test.jsp" method="get">
+        
+        <content>
+        <div class="row title">
+            <!-- title -->
+            <h4>회원가입</h4>
+        </div>
+        <div class="row line">
+        </div>
+        <div id="content1">
+        <div class="row">
+            <label for="">아이디</label>
+            <input type="text" name="userid">
+            <a href="javascript:void(0)">중복확인</a>
+        </div>
+        <div class="row">
+            <label for="">비밀번호</label>
+            <input 
+            type="text" 
+            pattern="^(?=.*[a-zA-Z])(?=.*[0-9]).{8,25}$" 
+            name="password" 
+            oninvalid="this.setCustomValidity('8자이상 25자 이하 영문소문자 혹은 대문자, 숫자를 1개이상 포함하셔야됩니다.')"
+            required>
+        </div>
+        <div class="row">
+            <label for="">비밀번호 재설정</label>
+            <input type="password" name="re-password" readonly>
+        </div>
+        <div class="row">
+            <label for="">이름</label>
+            <input type="text" name="username">
+        </div>
+        <div class="row">
+            <label for="">주소</label>
+            <input type="text" name="zipcode">
+            <a href="javascript:void(0)">우편번호</a>
+        </div>
+        <div class="row">
+            <label for=""></label>
+            <input type="text" name="addr1">
+        </div>
+        <div class="row">
+            <label for=""></label>
+            <input type="text" name="addr2">
+        </div>
+        <div class="row">
+            <label for="">휴대전화</label>
+            <select name="phone1">
+                <option value="010">010</option>
+                <option value="011">011</option>
+            </select>
+            <input type="text" pattern="[0-9]{3,4}">
+            <input type="text" pattern="[0-9]{4,4}">
+        </div>
+        
+        <div class="row">
+            <label for="">생년월일</label>
+            <input type="radio" name="cal" value="1"> 양
+            <input type="radio" name="cal" value="0"> 음
+        </div>
+        <div class="row">
+            <select>
+                <option value="">2025</option>
+                <option value="">2000</option>
+            </select>
+            <select>
+                <option value="">09</option>
+            </select>
+            <select>
+                <option value="">30</option>
+            </select>
+        </div>
+    </div>
+        <hr />
+        <div class="row agreement">
+            <input type="checkbox" name="email-recv">
+            <label for="">00의 이메일을 수신합니다.</label>
+        </div>
+        <div class="row agreement">
+            <input type="checkbox" name="sns-recv">
+            <label for="">00의 SMS를 수신합니다.</label>
+        </div>
+        <div class="row btn-group">
+            <input type="submit" value="가입 취소">
+            <button>회원 가입</button>
+        </div>
+    </content>
+    </form>
+</body>
+</html>

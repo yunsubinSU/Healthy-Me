@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../static/css/pages/NEWS-style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../static/js/by.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+        font-size: 28px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header"></div>
+
+    <main>
+      <div class="news-banner">
+        <a href="#announcement" class="announ">공지사항</a>
+        <a href="#popular-ingre" class="popular">인기 재료</a>
+        <a href="#hot-issue" class="hot-issue">인기 요리</a>
+      </div>
+
+      <div class="scroll-box">
+        <div class="scroll-box-under">
+          <div class="site-section">
+            <h2><a name="announcement">공지사항</a></h2>
+            <!-- 여기에 공지사항 사진이나 이런 관련 내용 작성 -->
+            <div class="container">
+              <div class="list-header">
+                <div class="number">번호</div>
+                <div class="title">제목</div>
+                <div class="author">작성자</div>
+                <div class="date">작성일</div>
+              </div>
+              <!-- 슬라이더 -->
+              <div class="slider">
+                <input type="radio" name="slide" id="slide1" checked />
+                <input type="radio" name="slide" id="slide2" />
+
+                <div class="sliders">
+                  <ul class="list-item">
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">공지</div>
+                          <div class="list-item-title">
+                            [안내] 2월 은행/카드사 점검 일정 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.11</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">공지</div>
+                          <div class="list-item-title">
+                            [안내] 컬러 소비자 분쟁해결 기준 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2023.08.20</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">204</div>
+                          <div class="list-item-title">
+                            [이벤트] 당근 2배 이벤트
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.09</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">203</div>
+                          <div class="list-item-title">
+                            [이벤트] 감자 5kg 무료 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.07</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">202</div>
+                          <div class="list-item-title">
+                            [안내] 하루배송 최대 주 7일 운영(2025.02.17)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.07</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">201</div>
+                          <div class="list-item-title">
+                            [안내] HealthMe(헬스미) 개인 정보 수집 동의
+                            안내(2025.02.10)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.06</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">200</div>
+                          <div class="list-item-title">
+                            [이벤트] 방어회 후기 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.04</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">199</div>
+                          <div class="list-item-title">
+                            [안내] 공식 홈페이지 서버 점검 (2025.2.2 0시 ~
+                            2025.2.2 02시 약 2시간)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.01</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">198</div>
+                          <div class="list-item-title">
+                            [안내] 헬스미 소비자 분쟁해결 기준 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.30</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">197</div>
+                          <div class="list-item-title">
+                            [안내] 2월 하루배송 휴무 일정 안내
+                            (2025.02.03~02.04)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.29</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">196</div>
+                          <div class="list-item-title">
+                            [이벤트] 1/24(금) [한우 빅 sale 데이] 라이브 방송
+                            구매 인증 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.27</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">195</div>
+                          <div class="list-item-title">
+                            [안내] 네이버페이x헬스미 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.23</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">194</div>
+                          <div class="list-item-title">
+                            [이벤트] 돼지고기 1kg 선착순 10명 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.22</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">193</div>
+                          <div class="list-item-title">
+                            [안내] 2025 선날 연휴 배송 일정 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.22</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- 2번째 페이지 -->
+                  <ul class="list-item list-item-slide-page">
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">공지</div>
+                          <div class="list-item-title">
+                            [안내] 2번째 페이지입니다.
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.11</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">공지</div>
+                          <div class="list-item-title">
+                            [안내] 컬러 소비자 분쟁해결 기준 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2023.08.20</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">204</div>
+                          <div class="list-item-title">
+                            [이벤트] 당근 2배 이벤트
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.09</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">203</div>
+                          <div class="list-item-title">
+                            [이벤트] 감자 5kg 무료 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.07</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">202</div>
+                          <div class="list-item-title">
+                            [안내] 하루배송 최대 주 7일 운영(2025.02.17)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.07</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">201</div>
+                          <div class="list-item-title">
+                            [안내] HealthMe(헬스미) 개인 정보 수집 동의
+                            안내(2025.02.10)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.06</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">200</div>
+                          <div class="list-item-title">
+                            [이벤트] 방어회 후기 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.04</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">199</div>
+                          <div class="list-item-title">
+                            [안내] 공식 홈페이지 서버 점검 (2025.2.2 0시 ~
+                            2025.2.2 02시 약 2시간)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.02.01</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">198</div>
+                          <div class="list-item-title">
+                            [안내] 헬스미 소비자 분쟁해결 기준 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.30</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">197</div>
+                          <div class="list-item-title">
+                            [안내] 2월 하루배송 휴무 일정 안내
+                            (2025.02.03~02.04)
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.29</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">196</div>
+                          <div class="list-item-title">
+                            [이벤트] 1/24(금) [한우 빅 sale 데이] 라이브 방송
+                            구매 인증 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.27</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">195</div>
+                          <div class="list-item-title">
+                            [안내] 네이버페이x헬스미 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.23</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">194</div>
+                          <div class="list-item-title">
+                            [이벤트] 돼지고기 1kg 선착순 10명 이벤트 당첨자 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.22</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <div class="list-item-wrap">
+                          <div class="list-item-anou">193</div>
+                          <div class="list-item-title">
+                            [안내] 2025 선날 연휴 배송 일정 안내
+                          </div>
+                          <div class="list-item-author">컬리</div>
+                          <div class="list-item-date">2025.01.22</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="anoun-icon">
+                <label class="material-symbols-outlined left-icon" for="slide1">
+                  arrow_back_ios
+                </label>
+                <label
+                  class="material-symbols-outlined right-icon"
+                  for="slide2"
+                >
+                  arrow_forward_ios
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="site-section">
+            <a name="popular-ingre"></a>
+            <h2>인기 재료</h2>
+            <!-- 여기에 인기있는 재료 사진이나 이런 관련 내용 작성 first -->
+            <div class="annou-section">
+              <div class="annou-section-indi">
+                <a href="javascript:void(0)"
+                  ><img
+                    src="https://cdn.pixabay.com/photo/2018/05/21/21/23/garlic-3419544_640.jpg"
+                    alt=""
+                    class="anounce-img"
+                /></a>
+
+                <a href=""></a>
+                <div class="anoun-comment">
+                  <span class="anoun-comment-letter">#공지사항 적을 자리#</span>
+                  <div class="icon">
+                    <a href="">
+                      <span class="material-symbols-outlined check check_icon">
+                        favorite
+                      </span>
+                    </a>
+
+                    <span class="counter">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="annou-section-indi">
+                <a href="javascript:void(0)"
+                  ><img
+                    src="https://cdn.pixabay.com/photo/2016/03/05/19/02/broccoli-1238250_640.jpg"
+                    alt=""
+                    class="anounce-img"
+                /></a>
+
+                <div class="anoun-comment">
+                  <span class="anoun-comment-letter">#공지사항 적을 자리#</span>
+                  <div class="icon">
+                    <a href="">
+                      <span class="material-symbols-outlined check check_icon">
+                        favorite
+                      </span>
+                    </a>
+                    <span class="counter">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="annou-section-indi">
+                <a href="javascript:void(0)">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/03/06/17/37/apple-662003_640.jpg"
+                    alt=""
+                    class="anounce-img"
+                  />
+                </a>
+
+                <div class="anoun-comment">
+                  <span class="anoun-comment-letter">#공지사항 적을 자리#</span>
+                  <div class="icon">
+                    <a href="">
+                      <span class="material-symbols-outlined check check_icon">
+                        favorite
+                      </span>
+                    </a>
+                    <span class="counter">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="annou-section-indi">
+                <a href="javascript:void(0)">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2020/07/09/20/22/avocados-5388669_640.jpg"
+                    alt=""
+                    class="anounce-img"
+                  />
+                </a>
+
+                <div class="anoun-comment">
+                  <span class="anoun-comment-letter">#공지사항 적을 자리#</span>
+                  <div class="icon">
+                    <a href="">
+                      <span class="material-symbols-outlined check check_icon">
+                        favorite
+                      </span>
+                    </a>
+                    <span class="counter">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 여기에 인기있는 재료 사진이나 이런 관련 내용 작성 second -->
+            <div class="ingre-section">
+              <div class="ingre-section-left">
+                <div class="popular-ingredient">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2013/07/13/05/37/paprika-155716_640.jpg"
+                      alt=""
+                      class="ingre-img"
+                    />
+                  </a>
+
+                  <div class="ingre-comment">
+                    <span class="ingre-comment-letter"
+                      >#해당재료 적을 자리#</span
+                    >
+                    <div class="icon">
+                      <a href="">
+                        <span
+                          class="material-symbols-outlined check check_icon"
+                        >
+                          favorite
+                        </span>
+                      </a>
+                      <span class="counter">0</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular-ingredient">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2015/07/31/12/07/soup-greens-869075_640.jpg"
+                      alt=""
+                      class="ingre-img"
+                    />
+                  </a>
+
+                  <div class="ingre-comment">
+                    <span class="ingre-comment-letter"
+                      >#해당재료 적을 자리#</span
+                    >
+                    <div class="icon">
+                      <a href="">
+                        <span
+                          class="material-symbols-outlined check check_icon"
+                        >
+                          favorite
+                        </span>
+                      </a>
+                      <span class="counter">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="popular-ingredient-big">
+                <a href="javascript:void(0)">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2024/04/12/05/38/ai-generated-8691162_640.jpg"
+                    alt=""
+                    class="ingre-img-big"
+                  />
+                </a>
+
+                <div class="ingre-comment-big">
+                  <span class="ingre-comment-letter-big"
+                    >#해당재료 적을 자리#</span
+                  >
+                  <div class="icon icon-big">
+                    <a href="">
+                      <span class="material-symbols-outlined check check_icon">
+                        favorite
+                      </span>
+                    </a>
+                    <span class="counter">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="site-section">
+            <a name="hot-issue"></a>
+            <h2>인기 요리</h2>
+            <!-- 여기에 핫 이슈 사진이나 이런 관련 내용 작성  -->
+            <div class="hot-issue-container">
+              <a href="javascript:void(0)">
+                <img
+                  src="https://recipe1.ezmember.co.kr/cache/recipe/2016/03/10/d81d88caa6c3cd8c12afd2c0b125a6f21.jpg"
+                  alt=""
+                  class="hot-issue-img"
+                />
+              </a>
+
+              <div class="hot-issue-comment">
+                <span class="hot-issue-comment-letter"
+                  >#핫 이슈 내용 적을 자리#</span
+                >
+                <div class="icon hot-issue-icon">
+                  <a href="">
+                    <span class="material-symbols-outlined check check_icon">
+                      favorite
+                    </span>
+                  </a>
+                  <span class="counter">0</span>
+                </div>
+              </div>
+            </div>
+            <div class="hot-issue-container">
+              <a href="javascript:void(0)">
+                <img
+                  src="https://cdn.class101.net/images/1a8f846a-3171-4483-a646-46ed75623bdd"
+                  alt=""
+                  class="hot-issue-img"
+                />
+              </a>
+
+              <div class="hot-issue-comment">
+                <span class="hot-issue-comment-letter"
+                  >#핫 이슈 내용 적을 자리#</span
+                >
+                <div class="icon hot-issue-icon">
+                  <a href="">
+                    <span class="material-symbols-outlined check check_icon">
+                      favorite
+                    </span>
+                  </a>
+                  <span class="counter">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="side_main">
+      <div class="floating">
+        <a class="side_banner">
+          <img
+            src="https://i.pinimg.com/236x/e1/b1/7f/e1b17fe5260a4a46d939a561c415be18.jpg"
+            class="img"
+            alt="광고이미지"
+          />
+          <button lass="btn1" onclick="alert('광고가 방해가 되었습니까?')">
+            x
+          </button></a
+        >
+        <a class="text12" href="#">오늘의 레시피</a>
+        <a class="text12" href="../document/document.html">영양소 분석</a>
+        <a class="text12" href="../calender/calendar.html">달력</a>
+        <a class="latest_watch">최근 본 상품</a>
+        <a class="side_img" href="https://www.kurly.com/goods/1000178631"
+          ><img
+            src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/e5e8f113-c75e-4104-b4fb-5206c8b1d9b8.jpg"
+            class="img"
+        /></a>
+        <a class="side_img" href="https://www.kurly.com/goods/5026448"
+          ><img
+            src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/25ac1ec1-005e-44a3-a00f-4224d25bcc96.jpg"
+            class="img"
+        /></a>
+        <div class="page_up">
+          <a href=""
+            ><span class="material-symbols-outlined"> arrow_upward_alt</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="footer"></div>
+  </body>
+</html>
