@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환영합니다!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!-- 이모지 -->
+    <script src="https://kit.fontawesome.com/b83f799b86.js" crossorigin="anonymous"></script>
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/home/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div>
+                <span class="logo_eng">HealthMe</span>
+                <span>ㅤ|ㅤ</span>
+                <span class="logo_kor"> 헬시미</span>
+            </div>
+            <div class="logo_img">
+                <img width="100px" height="100px" src="../../img/당근.png" alt="">
+            </div>
+        </div>
+        <!-- 네비게이션 -->
+        <nav>
+            <div class="mainmenu">
+                <ul class="top_header_nav">
+                    <li>
+                        <form class="search_box" action="" method="get">
+                            <button class="search_btn" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input class="search_txt" type="text" id="i-d" name="" placeholder="검색어를 입력해주세요">
+                        </form>
+                    </li>
+                    <li><a href="/pages/login/login.html">로그인</a></li>
+                    <li><a href="/pages/login/join.html">회원가입</a></li>
+                </ul>
+                <ul class="low_header_nav">
+                    <li><a href="/pages/document/document.html">영양성분</a></li>
+                    <li><a href="/pages/Purchase/Purchase.html">구매</a></li>
+                    <li><a href="/pages/calender/calendar.html">달력</a></li>
+                    <li><a href="/pages/news/NEWS-index.html">뉴스</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <!-- 배너 -->
+            <div class="slider-block">
+                <div class="slider-wrapper">
+                    <!-- 1번 슬라이드 -->
+                    <div class="item">
+                        <div class="banner">
+                            <img width="1900px" height="370px" src="../../img/main/참외 배너.jpg" alt="배달 이미지">
+                        </div>
+                    </div>
+                    <!-- 2번 슬라이드 -->
+                    <div class="item">
+                        <div class="banner">
+                            <img width="1900px" height="370px" src="../../img/main/식단 배너.png" alt="배달 이미지">
+                        </div>
+                    </div>
+                    <!-- 3번 슬라이드 -->
+                    <div class="item">
+                        <div class="banner">
+                            <img width="1900px" height="370px" src="../../img/main/반찬 배너.jpg" alt="배달 이미지">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 아이템 -->
+            <content>
+                <ul class="main_top_content">
+                    <!-- 컨텐츠 -->
+                    <li class="are_you_Health">
+                        <a href="/pages/document/document.html">
+                            <img class="are_you_Health" width="400px" height="400px" src="../../img/main/나의 건강은.jpg" alt="건강 찾기">
+                        </a>
+                    </li>
+                    <li class="what_health_food">
+                        <a href="/pages/Purchase/Purchase.html">
+                            <img class="what_health_food" width="400px" height="400px" src="../../img/main/건강식.jpg" alt="건강 재료 찾기">
+                        </a>
+                    </li>
+                    <li class="content_news">
+                        <ul class="news_card">
+                            <a href="/pages/news/NEWS-index.html">
+                                <ul class="news_card_top">
+                                    <li class="news_card_title">공지사항</li>
+                                    <li class="news_card_subtitle">NEW</li>
+                                </ul>
+                                <li class="news_card_content">공식 홈페이지 서버 점검 <br>(2025.2.2 0시 ~
+                                    2025.2.2 02시 약 2시간)</li>
+                            </a>
+                        </ul>
+                        <ul class="news_card">
+                            <a href="/pages/news/NEWS-index.html">
+                                <ul class="news_card_top">
+                                    <li class="news_card_title">인기재료</li>
+                                    <li class="news_card_subtitle"></li>
+                                </ul>
+                                <li class="news_card_content">[이벤트]고구마 5kg 50%할인</li>
+                            </a>
+                        </ul>
+                        <ul class="news_card">
+                            <a href="/pages/news/NEWS-index.html">
+                                <ul class="news_card_top">
+                                    <li class="news_card_title">인기요리</li>
+                                    <li class="news_card_subtitle"></li>
+                                </ul>
+                                <li class="news_card_content">단백질폭탄피자 실시간 검색 1위</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="main_low_content">
+                    <!-- 인기상품 -->
+                    <ul class="main_low_top_content">
+                        <li class="main_low_title">🏆 실시간 인기 상품</li>
+                        <li>가장 인기있는 상품만 모아보세요!</li>
+                    </ul>
+                    <ul class="main_low_low_content">
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4c36b050-06f9-4ce1-9597-27bf4c2563fb.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[JJH365] 한돈 부위별 대용량 가성비
+                                    7종</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>28,900원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">34%</li>
+                                    <li class="price">18,900원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/b5afa0d9-0d39-424a-b4aa-df14e290244e.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[KIM01] 동물복지 백색 유정란 20구</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>10,200원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">15%</li>
+                                    <li class="price">8,670원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/2806a17d-deba-4bc4-b6ec-d6dc0c96e575.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[YSB111] 유기농 채소믹스 600g (냉동)</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>8,990원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">5%</li>
+                                    <li class="price">8,490원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/dd55e8f3-621f-4b3b-b775-460c4b6c2435.jpeg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[YSH45] 완숙토마토 1kg</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>11,900원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">16%</li>
+                                    <li class="price">9,900원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 특가 -->
+                    <ul class="main_low_top_content">
+                        <li class="main_low_title">🎉 오늘의 특가</li>
+                        <li>헬시미 추천 특가템 최대 50%</li>
+                    </ul>
+                    <ul class="main_low_low_content">
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a78fcd53-dd61-4b5c-afcd-7ee9a583e045.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[JJH09] 칠레산 블루베리 125g*3</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>19,900원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">49%</li>
+                                    <li class="price">9,900원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4436fdec-039d-4683-b8f3-7ebf677ad190.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[JJH30] 대추방울토마토 750g</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>11,900원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">41%</li>
+                                    <li class="price">6,990원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8a813917-6a80-4a23-8bf1-074df5875493.jpg" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[JJH05] 채소믹스 500g</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>5,990원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">11%</li>
+                                    <li class="price">5,290원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                        <li class="item_store">
+                            <div class="item_img">
+                                <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5a551f25-bcc3-4b26-914e-4cedce85dc7e.jpeg?v=0531" alt="">
+                            </div>
+                            <div class="item_add">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span onclick="alert('장바구니에 담겼습니다')">담기</span>
+                            </div>
+                            <div class="item_name">
+                                <span>[JJH21] 호주산 목초육 치마살 구이용 300g</span>
+                            </div>
+                            <div class="item_discount_price">
+                                <del>16,590원</del>
+                            </div>
+                            <div class="item_price">
+                                <ul>
+                                    <li class="discount">27%</li>
+                                    <li class="price">11,900원~</li>
+                                </ul>
+                            </div>
+                            <div class="item_review">
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <span>999+</span>
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+            </content>
+        </section>
+    </main>
+    <footer>
+        <div class="top_info">
+            <ul>
+                <li>주식회사 Jeon</li>
+                <li>/</li>
+                <li>STORE 헬시미 </li>
+                <li>/</li>
+                <li>OWNER 전정현</li>
+                <li>/</li>
+                <li>COMPANY REG.NO</li>
+                <li>/</li>
+                <li> 123.1234.1234</li>
+                <li>/</li>
+                <li>NETWORK REG.NO</li>
+                <li>/</li>
+                <li>제2025-대구광역시-0001호</li>
+                <li>/</li>
+                <li>CHECK</li>
+            </ul>
+        </div>
+        <div class="low_info">
+            <ul>
+                <li>Copyright © 2025-01-01 Inc. All rights reserved. / designed by JeonJeongHyeon ©</li>
+            </ul>
+        </div>
+    </footer>
+</body>
