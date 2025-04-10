@@ -35,7 +35,9 @@
 * 작업 후 완성된 화면   
 ![first](./Healthy_Me/초기도안으로%20만든%20화면.PNG)
 * 클릭시 나오는 화면들    
-![first](./Healthy_Me/purchase.PNG) 
+![first](./Healthy_Me/purchase.PNG)
+*부가적으로 작업한 페이지들    
+
 
 ### 작업 후 문제점
 -------
