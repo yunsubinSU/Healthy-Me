@@ -37,8 +37,8 @@
 * 클릭시 나오는 화면들    
 ![first](./Healthy_Me/purchase.PNG)
 *부가적으로 작업한 페이지들    
-![first](./Healthy Me/join.PNG)
-![first](./Healthy Me/login.PNG)
+![first](./Healthy_Me/login.PNG)
+![first](./Healthy_Me/join.PNG)
 
 ### 작업 후 문제점
 -------
